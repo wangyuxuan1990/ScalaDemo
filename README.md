@@ -1,1 +1,2 @@
+# Scala
 Learning Scala
