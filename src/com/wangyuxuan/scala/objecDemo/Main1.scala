@@ -12,6 +12,6 @@ object Main1 {
   }
 }
 
-object Main2 extends App {
-  println("hello, scala Main2...")
+object Main3 extends App {
+  println("hello, scala Main3...")
 }
