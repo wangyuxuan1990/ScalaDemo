@@ -9,12 +9,12 @@ package com.wangyuxuan.scala.genericDemo
 // 这个名字可以任意取
 class Pair[T, S](val first: T, val second: S)
 
-case class Person(var name: String, val age: Int)
+case class Person1(var name: String, val age: Int)
 
 object Pair {
   def main(args: Array[String]): Unit = {
     val p1 = new Pair[String, Int]("张三", 10)
     val p2 = new Pair[String, String]("张三", "1988-02-19")
-    val p3 = new Pair[Person, Person](Person("张三", 20), Person("李四", 30))
+    val p3 = new Pair[Person1, Person1](Person1("张三", 20), Person1("李四", 30))
   }
 }
